@@ -5,7 +5,11 @@ import org.junit.Test;
 
 public class AppTests {
     @Test
-    public void test1(){
+    public void test1() {
         System.out.println("Running test1");
     }
-}
+        private void doSomething(){
+            System.out.println("doing something");
+        }
+    }
+
